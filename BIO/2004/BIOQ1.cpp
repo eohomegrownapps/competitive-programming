@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
 	long days = 0;
 	days+=(baktun-13)*144000+(katun-20)*7200+(tun-7)*360+(uinal-16)*20+(kin-3);
 	int year = 2000;
-	std::cout<<days<<std::endl;
+	//std::cout<<days<<std::endl;
 	while (true){
 		int d;
 		if (year%4==0){

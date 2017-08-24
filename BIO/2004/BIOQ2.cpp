@@ -142,6 +142,7 @@ int nextMove(int player, std::array<std::array<int, 7>, 6> &board){
 
 int main(int argc, char const *argv[])
 {
+	std::cout<<"Euan Ong"<<std::endl<<"Magdalen College School"<<std::endl;
 	//player=1, player=2, draw=0, no=-1
 	std::array<std::array<int, 7>, 6> board;
 	for (int x = 0; x<7; x++){
